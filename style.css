@@ -19,22 +19,56 @@
 }
 
 body{
-    width: 1000px;
+    width: 100%;
+    max-width: 900px;
     margin: auto;
-    text-align: center;
 }
-
-.debug{
-    width: 200px;
-    height: 200px;
-    background-color: green;
-    margin: 10px;
-}
-
 
 /*start header*/
 header>h1{
     color: var(--title-pink);
     margin:25px 0;
     font-family: 'Caprasimo', cursive;
+    text-align: center;
+}
+/*finish header*/
+
+/*start main*/
+main>p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.row{
+    margin-bottom: 30px;
+}
+
+.row .col{
+    float: left;
+    width: calc(100% / 3);
+    background-color: var(--background-card-black);
+}
+
+.col>img{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+
+.col>span{
+    background-color: var(--background-card-black);
+}
+
+.nome{
+    font-family: 'Caprasimo', cursive;
+    color: white;
+}
+
+.mail{
+    color:var(--mail-lightblue);
+}
+
+.job{
+    color: white;
 }
