@@ -45,8 +45,9 @@ main>p{
 
 .row .col{
     float: left;
-    width: calc(100% / 3);
+    width: calc(94%/3);
     background-color: var(--background-card-black);
+    box-shadow: 0 0 10px;
 }
 
 .col>img{
@@ -58,6 +59,7 @@ main>p{
 
 .col>span{
     background-color: var(--background-card-black);
+    padding-left: 15px;
 }
 
 .nome{
@@ -71,4 +73,8 @@ main>p{
 
 .job{
     color: white;
+}
+
+.central{
+    margin:0 3%;
 }
