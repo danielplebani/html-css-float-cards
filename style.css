@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-white);
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+:root{
+    --title-pink: #e53170;
+    --background-white: #fffffe;
+    --background-card-black: #0f0e17;
+    --mail-lightblue: #52c4ea;
+}
+
+body{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.debug{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 10px;
+}
+
+
+/*start header*/
+header>h1{
+    color: var(--title-pink);
+    margin:25px 0;
+    font-family: 'Caprasimo', cursive;
+}
