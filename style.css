@@ -28,7 +28,7 @@ body{
 header>h1{
     color: var(--title-pink);
     margin:25px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     text-align: center;
 }
 /*finish header*/
@@ -37,7 +37,7 @@ header>h1{
 main>p{
     margin-bottom: 50px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     font-size: small;
 }
 
@@ -66,20 +66,23 @@ main>p{
 }
 
 .nome{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fredoka', sans-serif;
     color: white;
     padding: 5px;
+    font-size:small;
 }
 
 .mail{
     color:var(--mail-lightblue);
     font-size: small;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .job{
     color: white;
     font-size: small;
     padding: 7px;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .central{
