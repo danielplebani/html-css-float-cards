@@ -28,7 +28,7 @@ body{
 header>h1{
     color: var(--title-pink);
     margin:25px 0;
-    font-family: 'Caprasimo', cursive;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 /*finish header*/
@@ -37,6 +37,8 @@ header>h1{
 main>p{
     margin-bottom: 50px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
 
 .row{
